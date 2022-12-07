@@ -11,7 +11,7 @@ async function run() {
 	const totalCaloriesPerElf = splitPerElf.map((str) => str.split("\n").reduce((a, b) => a + Number(b), 0));
 	const highToLow = totalCaloriesPerElf.sort((a, b) => b - a);
 
-	console.log(`The elf carrying the most Calories is carrying ${bold(highToLow[0])} calories.`);
+	console.log(`The elf carrying the most Calories is carrying ${bold(highToLow[0])} Calories.`);
 }
 
 void run();
