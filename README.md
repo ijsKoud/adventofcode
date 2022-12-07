@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://ijskoud.dev/assets/svg/logo.svg" width="100px" />
+    <img src="https://media.discordapp.net/attachments/835619926667821117/1050055797100511292/image.png" width="100px" />
     <h1>adventofcode</h1>
   
   <p>Repository for the Advent Of Code challenges 🧩</p>
@@ -7,7 +7,7 @@
   <p align="center">
     <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg" />
     <a href="/LICENSE" target="_blank">
-      <img alt="License: None" src="https://img.shields.io/badge/License-None-yellow.svg" />
+      <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
     </a>
   </p>
 
@@ -20,11 +20,12 @@
 
 ## Information
 
-Just a template, like an uncolored drawing. That's all. ✏️
+Repository for the Advent Of Code challenges 🧩
+The directory structure is built like this: `src/<year>/<challenge day>/<part>.ts`, use this if you ever want to look for a solution 😄.
 
 ## Install
 
-To use this template, you will need the following: `yarn` and `node >= 18.12.1`.
+If you want to contribute or use this repository for your own **Advent Of Code** make sure you have the following: `yarn` and `node >= 18.12.1`.
 
 
 
@@ -43,6 +44,6 @@ This will always be open source project, even if I don't receive donations. But 
 
 ## License
 
-Project is licensed under the © [**None License**](/LICENSE)
+Project is licensed under the © [**MIT License**](/LICENSE)
 
 ---
