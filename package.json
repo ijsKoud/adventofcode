@@ -37,5 +37,8 @@
 	"engines": {
 		"node": ">= v18.12.1"
 	},
-	"packageManager": "yarn@3.3.0"
+	"packageManager": "yarn@3.3.0",
+	"dependencies": {
+		"colorette": "^2.0.19"
+	}
 }
