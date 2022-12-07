@@ -808,6 +808,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"adventofcode@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "adventofcode@workspace:."
+  dependencies:
+    "@commitlint/cli": ^17.3.0
+    "@commitlint/config-angular": ^17.3.0
+    "@sapphire/eslint-config": ^4.3.8
+    "@sapphire/prettier-config": ^1.4.4
+    "@sapphire/ts-config": ^3.3.4
+    "@types/node": ^18.11.11
+    "@typescript-eslint/eslint-plugin": ^5.45.1
+    "@typescript-eslint/parser": ^5.45.1
+    eslint: ^8.29.0
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-prettier: ^4.2.1
+    husky: ^8.0.2
+    is-ci: ^3.0.1
+    lint-staged: ^13.1.0
+    nodemon: ^2.0.20
+    prettier: ^2.8.0
+    typescript: 4.9.3
+  languageName: unknown
+  linkType: soft
+
 "agent-base@npm:6, agent-base@npm:^6.0.2":
   version: 6.0.2
   resolution: "agent-base@npm:6.0.2"
@@ -3837,30 +3861,6 @@ __metadata:
   checksum: 49d72e4420944e7ede2782d6b0826a6ede6cdab23c7de63470917e7a78166bc4d5b1a96279d3d79a85f1ba5a17cd37c0acbb3cbff19a07447691445b8b051c55
   languageName: node
   linkType: hard
-
-"template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "template@workspace:."
-  dependencies:
-    "@commitlint/cli": ^17.3.0
-    "@commitlint/config-angular": ^17.3.0
-    "@sapphire/eslint-config": ^4.3.8
-    "@sapphire/prettier-config": ^1.4.4
-    "@sapphire/ts-config": ^3.3.4
-    "@types/node": ^18.11.11
-    "@typescript-eslint/eslint-plugin": ^5.45.1
-    "@typescript-eslint/parser": ^5.45.1
-    eslint: ^8.29.0
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-prettier: ^4.2.1
-    husky: ^8.0.2
-    is-ci: ^3.0.1
-    lint-staged: ^13.1.0
-    nodemon: ^2.0.20
-    prettier: ^2.8.0
-    typescript: 4.9.3
-  languageName: unknown
-  linkType: soft
 
 "text-extensions@npm:^1.0.0":
   version: 1.9.0

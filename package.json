@@ -1,12 +1,12 @@
 {
-	"name": "template",
+	"name": "adventofcode",
 	"version": "1.0.0",
-	"description": "A quick and easy to use template for TypeScript like projects ✏️",
+	"description": "Repository for the Advent Of Code challenges 🧩",
 	"author": "ijsKoud <github@ijskoud.dev>",
 	"license": "MIT",
 	"type": "module",
 	"main": "dist/index.js",
-	"homepage": "https://github.com/ijsKoud/project-template",
+	"homepage": "https://github.com/ijsKoud/adventofcode",
 	"scripts": {
 		"build": "tsc --build",
 		"build:watch": "tsc --watch",
