@@ -1,23 +1,3 @@
-/*
-.234.....  2-4
-.....678.  6-8
-
-.23......  2-3
-...45....  4-5
-
-....567..  5-7
-......789  7-9 // overlap
-
-.2345678.  2-8
-..34567..  3-7 // overlap
-
-.....6...  6-6
-...456...  4-6 // overlap
-
-.23456...  2-6 // overlap
-...45678.  4-8
-*/
-
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { srcDir } from "../../lib/constants.js";
