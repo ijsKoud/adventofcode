@@ -39,6 +39,7 @@
 	},
 	"packageManager": "yarn@3.3.0",
 	"dependencies": {
-		"colorette": "^2.0.19"
+		"colorette": "^2.0.19",
+		"dot-prop": "^7.2.0"
 	}
 }
