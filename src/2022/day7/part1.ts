@@ -58,19 +58,7 @@ function getTotalSize(fileSystem: FileStructure) {
 	const deepToClose = dKeys.sort((a, b) => b.split(".").length - a.split(".").length);
 
 	for (const key of deepToClose) {
-		if (key === "_files") {
-			const keys = Object.keys(sizeTable);
-			let size = fileSystem._files;
-
-			for (const k of keys) {
-				if (k.includes(".")) continue;
-				size += sizeTable[k];
-			}
-
-			sizeTable[""] = size;
-
-			continue;
-		}
+		if (key === "_files") continue;
 
 		const content = getProperty(fileSystem, key);
 		const keys = Object.keys(content);
@@ -79,11 +67,22 @@ function getTotalSize(fileSystem: FileStructure) {
 		for (const k of keys) {
 			if (k === "_files") continue;
 			const vSize = sizeTable[`${key}.${k}`];
+
 			size += vSize;
 		}
 
 		sizeTable[key] = size;
 	}
+
+	const keys = Object.keys(sizeTable);
+	let size = fileSystem._files;
+
+	for (const k of keys) {
+		if (k.includes(".")) continue;
+		size += sizeTable[k];
+	}
+
+	sizeTable[""] = size;
 
 	return sizeTable;
 }
