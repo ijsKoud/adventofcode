@@ -9,9 +9,6 @@ on:
 jobs:
   Building:
     runs-on: ubuntu-latest
-    env:
-      TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
-      TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b # v3
@@ -25,16 +22,10 @@ jobs:
       - name: Install Dependencies
         run: yarn install
 
-      - name: Generate Prisma Types
-        run: yarn workspace server prisma generate
-
       - name: Run Compiler
         run: yarn run build
   Linting:
     runs-on: ubuntu-latest
-    env:
-      TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
-      TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b # v3
