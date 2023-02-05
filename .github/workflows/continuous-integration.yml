@@ -7,23 +7,46 @@ on:
   pull_request:
 
 jobs:
-  all:
+  Building:
     runs-on: ubuntu-latest
+    env:
+      TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+      TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3
+        uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b # v3
 
-      - name: Install Node v16
-        uses: actions/setup-node@64ed1c7eab4cce3362f8c340dee64e5eaeef8f7c # v3
+      - name: Install Node v18
+        uses: actions/setup-node@8c91899e586c5b171469028077307d293428b516 # tag=v3
         with:
-          node-version: 16
+          node-version: 18
           cache: yarn
 
       - name: Install Dependencies
         run: yarn install
 
-      - name: Run ESLint
-        run: yarn lint
+      - name: Generate Prisma Types
+        run: yarn workspace server prisma generate
 
       - name: Run Compiler
-        run: yarn build
+        run: yarn run build
+  Linting:
+    runs-on: ubuntu-latest
+    env:
+      TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+      TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b # v3
+
+      - name: Install Node v18
+        uses: actions/setup-node@8c91899e586c5b171469028077307d293428b516 # tag=v3
+        with:
+          node-version: 18
+          cache: yarn
+
+      - name: Install Dependencies
+        run: yarn install
+
+      - name: Run Eslint
+        run: yarn run lint
