@@ -20,8 +20,7 @@
 
 ## Information
 
-Repository for the Advent Of Code challenges 🧩
-The directory structure is built like this: `src/<year>/<challenge day>/<part>.ts`, use this if you ever want to look for a solution 😄.
+Repository for the Advent Of Code challenges 🧩,The directory structure is built like this: `src/<year>/<challenge day>/<part>.ts`, use this if you ever want to look for a solution 😄.
 
 ## Install
 
