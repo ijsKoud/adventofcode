@@ -34,12 +34,12 @@
 		"prettier": "^2.8.8",
 		"typescript": "5.0.4"
 	},
-	"engines": {
-		"node": ">= v18.16.0"
-	},
-	"packageManager": "yarn@3.5.1",
 	"dependencies": {
 		"colorette": "^2.0.20",
 		"dot-prop": "^8.0.0"
-	}
+	},
+	"engines": {
+		"node": ">= v18.16.0"
+	},
+	"packageManager": "yarn@3.5.1"
 }
