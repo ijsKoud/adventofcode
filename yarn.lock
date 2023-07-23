@@ -830,7 +830,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.62.0
     "@typescript-eslint/parser": ^5.62.0
     colorette: ^2.0.20
-    dot-prop: ^8.0.1
+    dot-prop: ^8.0.2
     eslint: ^8.45.0
     eslint-config-prettier: ^8.8.0
     eslint-plugin-prettier: ^5.0.0
@@ -1523,12 +1523,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dot-prop@npm:^8.0.1":
-  version: 8.0.1
-  resolution: "dot-prop@npm:8.0.1"
+"dot-prop@npm:^8.0.2":
+  version: 8.0.2
+  resolution: "dot-prop@npm:8.0.2"
   dependencies:
     type-fest: ^3.8.0
-  checksum: c6f00724c58a202282cbc3950aacf9e79e07938d080cdd2e5003069450eebf7750104037e04dfcc8f0f1fc2d42f752beb77a89ab71c7422a632a87dab743e8f1
+  checksum: 6bb27f4a1790c340a8d848063ee8410184be0535082b942731a5d6d84763766d5811d9d7015c7f678e1e6b0d3839f65ce19a453525746bd853d2c09a064d4fdb
   languageName: node
   linkType: hard
 
