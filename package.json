@@ -31,7 +31,7 @@
 		"is-ci": "^3.0.1",
 		"lint-staged": "^14.0.0",
 		"nodemon": "^3.0.1",
-		"prettier": "^3.0.1",
+		"prettier": "^3.0.2",
 		"typescript": "5.1.6"
 	},
 	"dependencies": {
@@ -41,5 +41,5 @@
 	"engines": {
 		"node": ">= v18.16.0"
 	},
-	"packageManager": "yarn@3.6.1"
+	"packageManager": "yarn@3.6.2"
 }
