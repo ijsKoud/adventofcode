@@ -457,15 +457,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/prettier-config@npm:^1.4.5":
-  version: 1.4.5
-  resolution: "@sapphire/prettier-config@npm:1.4.5"
-  dependencies:
-    prettier: ^2.8.2
-  checksum: 241dfda0e73d1cb62d97fc946530041f1515a077572e4fd2da9f0bef80b97fbd8828ad6d36f6c98561b217acce185d111175eb3c889907e2591daf778e800274
-  languageName: node
-  linkType: hard
-
 "@sapphire/ts-config@npm:^4.0.1":
   version: 4.0.1
   resolution: "@sapphire/ts-config@npm:4.0.1"
@@ -473,6 +464,13 @@ __metadata:
     tslib: ^2.6.0
     typescript: ^5.1.6
   checksum: f8fae2d8c7cd85c254898cb9007681e35c8b093e1538f8ee7d1e2c22a5e2235b8e0f6e17fd37366dccc77a14762ad61e06382605347d4a49f8cf9a3f0a99b7d0
+  languageName: node
+  linkType: hard
+
+"@snowcrystals/prettier-config@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@snowcrystals/prettier-config@npm:1.0.0"
+  checksum: 3f86d203fc0176713ce81debfece3408a290d4deb68ebdd36af8abf9715a25592484753013721e28c3fe0059b5aaef1d8cdb3fde9340f786c4c9823032dc72e5
   languageName: node
   linkType: hard
 
@@ -855,8 +853,8 @@ __metadata:
     "@commitlint/cli": ^17.7.1
     "@commitlint/config-angular": ^17.7.0
     "@sapphire/eslint-config": ^4.4.3
-    "@sapphire/prettier-config": ^1.4.5
     "@sapphire/ts-config": ^4.0.1
+    "@snowcrystals/prettier-config": ^1.0.0
     "@types/node": ^18.17.5
     "@typescript-eslint/eslint-plugin": ^5.62.0
     "@typescript-eslint/parser": ^5.62.0
@@ -3480,15 +3478,6 @@ __metadata:
   dependencies:
     fast-diff: ^1.1.2
   checksum: 00ce8011cf6430158d27f9c92cfea0a7699405633f7f1d4a45f07e21bf78e99895911cbcdc3853db3a824201a7c745bd49bfea8abd5fb9883e765a90f74f8392
-  languageName: node
-  linkType: hard
-
-"prettier@npm:^2.8.2":
-  version: 2.8.2
-  resolution: "prettier@npm:2.8.2"
-  bin:
-    prettier: bin-prettier.js
-  checksum: 740c56c2128d587d656ea1dde9bc9c3503dfc94db4f3ac387259215eeb2e216680bdad9d18a0c9feecc6b42cfa188d6fa777df4c36c1d00cedd4199074fbfbd2
   languageName: node
   linkType: hard
 
