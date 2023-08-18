@@ -1,7 +1,0 @@
-{
-	"project.version": "1.0.0",
-	"project.information": ["Repository for the Advent Of Code challenges 🧩", "The directory structure is built like this: `src/<year>/<challenge day>/<part>.ts`, use this if you ever want to look for a solution 😄."],
-	"project.installation": ["If you want to contribute or use this repository for your own **Advent Of Code** make sure you have the following: `yarn` and `node >= 18.12.1`."],
-	"project.icon": "https://media.discordapp.net/attachments/835619926667821117/1050055797100511292/image.png",
-	"project.extra_info": ""
-}
