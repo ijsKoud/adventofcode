@@ -20,13 +20,12 @@
 
 ## Information
 
-Repository for the Advent Of Code challenges 🧩,The directory structure is built like this: `src/<year>/<challenge day>/<part>.ts`, use this if you ever want to look for a solution 😄.
+Repository for the Advent Of Code challenges 🧩
+The directory structure is built like this: `src/<year>/<challenge day>/<part>.ts`, use this if you ever want to look for a solution 😄.
 
 ## Install
 
-If you want to contribute or use this repository for your own **Advent Of Code** make sure you have the following: `yarn` and `node >= 18.12.1`.
-
-
+If you want to contribute or use this repository for your own **Advent Of Code** make sure you have the following: `yarn` and `node >= 18.16.0`.
 
 ## Author
 
