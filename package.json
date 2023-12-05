@@ -19,6 +19,7 @@
 		"@sapphire/eslint-config": "^5.0.2",
 		"@sapphire/ts-config": "^5.0.0",
 		"@snowcrystals/prettier-config": "^1.0.0",
+		"@types/lodash": "^4",
 		"@types/node": "^20.10.2",
 		"@typescript-eslint/eslint-plugin": "^6.13.1",
 		"@typescript-eslint/parser": "^6.13.1",
@@ -34,7 +35,8 @@
 	},
 	"dependencies": {
 		"colorette": "^2.0.20",
-		"dot-prop": "^8.0.2"
+		"dot-prop": "^8.0.2",
+		"lodash": "^4.17.21"
 	},
 	"engines": {
 		"node": ">= v18.16.0"
